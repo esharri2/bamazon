@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const connection = require("./modules/db_connection.js");
 const getInventory = require("./modules/getInventory.js");
-const closeConnection = require("./modules/closeConnection.js")
+const closeConnection = require("./modules/closeConnection.js");
 
 // order constructor
 let Order = function(id, quantity) {

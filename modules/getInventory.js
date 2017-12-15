@@ -4,7 +4,7 @@ require("console.table");
 let getInventory = function(callback) {
   connection.query("SELECT * FROM products", function(err, response) {
     if (err) throw err;
-    validIDs = [];
+    validIDs = [];    
     response.forEach(function(item) {
       validIDs.push(item.item_id);
     });
