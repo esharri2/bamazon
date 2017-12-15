@@ -22,6 +22,6 @@ Managers can run `node bamazonManager.js` to see a list of manager options. Mana
 2. Create a MySQL database using `bamazonDB.sql`.
 3. Update `db_connection.js` with your database information.
 4. Access the views by using the following commands:
-    *`node bamazonCustomer.js`
-    *`node bamazonManager.js`
-    *`node bamazonSupervisor.js`
+    `node bamazonCustomer.js`,    
+    `node bamazonManager.js`, or
+	`node bamazonSupervisor.js`.
