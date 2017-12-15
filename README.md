@@ -15,3 +15,13 @@ Shoppers can run `node bamazonCustomer.js` to see the full inventory. They can t
 Managers can run `node bamazonManager.js` to see a list of manager options. Managers can see full invenotry, see a list of items with a quantity lower than five, update the quantity of an item, and add new items.
 
 ![Manager view](/README_media/manager.gif)
+
+## How to install and run Bamazon
+
+1. Fork this repository.
+2. Create a MySQL database using `bamazonDB.sql`.
+3. Update `db_connection.js` with your database information.
+4. Access the views by using the following commands:
+    *`node bamazonCustomer.js`
+    *`node bamazonManager.js`
+    *`node bamazonSupervisor.js`
