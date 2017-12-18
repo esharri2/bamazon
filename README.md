@@ -2,6 +2,14 @@
 
 Bamazon is a Node.js CLI web store that provides views for shoppers, managers, and admins. It uses MySQL to store data. 
 
+This project demonstrates:
+* Inquirer npm package
+* MySQL npm package
+* MySQL queries
+* Modular functions
+* Arrow functions
+* User input validation
+
 ## How it works
 
 ### Shopper view
