@@ -34,7 +34,7 @@ Supervisors can run `node supervisorManager.js` to see a list of supervisor opti
 
 1. Fork or download this repository.
 2. Create a MySQL database using `bamazonDB.sql`.
-3. Update `db_connection.js` with your database information.
+3. Update `modules/db_connection.js` with your database information.
 4. Run `npm install` to install the Inquirer and MySQL packages.
 5. Access the views by using the following commands:
     `node bamazonCustomer.js`,    
