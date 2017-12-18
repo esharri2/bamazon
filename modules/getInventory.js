@@ -1,18 +1,18 @@
 const connection = require("./db_connection.js");
 require("console.table");
 
-let getInventory = function(callback) {
-  connection.query("SELECT * FROM products", function(err, response) {
+function getInventory(callback) {
+  connection.query("SELECT item_id, product_name, department_name, price, stock_quantity FROM products", (err, res) => {
     if (err) throw err;
-    validIDs = [];    
-    response.forEach(function(item) {
+    validIDs = [];
+    res.forEach(item => {
       validIDs.push(item.item_id);
     });
-    console.table(response);
+    console.table(res);
     if (callback) {
       callback();
     }
   });
-};
+}
 
 module.exports = getInventory;

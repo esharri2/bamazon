@@ -16,12 +16,19 @@ Managers can run `node bamazonManager.js` to see a list of manager options. Mana
 
 ![Manager view](/README_media/manager.gif)
 
+### Supervisor view
+
+Supervisors can run `node supervisorManager.js` to see a list of supervisor options. Supervisors can see the total profit per department (overhead costs subtracted from sales) and add new departments.
+
+![Manager view](/README_media/supervisor.gif)
+
 ## How to install and run Bamazon
 
-1. Fork this repository.
+1. Fork or download this repository.
 2. Create a MySQL database using `bamazonDB.sql`.
 3. Update `db_connection.js` with your database information.
-4. Access the views by using the following commands:
+4. Run `npm install` to install the Inquirer and MySQL packages.
+5. Access the views by using the following commands:
     `node bamazonCustomer.js`,    
     `node bamazonManager.js`, or
 	`node bamazonSupervisor.js`.
